@@ -11,7 +11,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FaridSafi/react-native-google-places-autocomplete.git"
-{
+  },
   "_args": [
     [
       "react-native-google-places-autocomplete@git+https://github.com/healnow/react-native-google-places-autocomplete.git",
