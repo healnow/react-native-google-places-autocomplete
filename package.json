@@ -1,4 +1,3 @@
-{
   "name": "react-native-google-places-autocomplete",
   "version": "1.2.2",
   "description": "Customizable Google Places autocomplete component for iOS and Android React-Native apps",
@@ -11,6 +10,35 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FaridSafi/react-native-google-places-autocomplete.git"
+{
+  "_args": [
+    [
+      "react-native-google-places-autocomplete@git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+      "/Users/AfroSamurai/apps/mobile_app"
+    ]
+  ],
+  "_from": "git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+  "_id": "react-native-google-places-autocomplete@1.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-google-places-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/healnow/react-native-google-places-autocomplete/master/package.json",
+      "gitUrl": "git://github.com/healnow/react-native-google-places-autocomplete.git",
+      "httpsUrl": "git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+      "shortcut": "github:healnow/react-native-google-places-autocomplete",
+      "ssh": "git@github.com:healnow/react-native-google-places-autocomplete.git",
+      "sshUrl": "git+ssh://git@github.com/healnow/react-native-google-places-autocomplete.git",
+      "type": "github"
+    },
+    "name": "react-native-google-places-autocomplete",
+    "raw": "react-native-google-places-autocomplete@git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+    "rawSpec": "git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+    "scope": null,
+    "spec": "git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+    "type": "hosted"
   },
   "keywords": [
     "autocomplete",
@@ -20,14 +48,25 @@
     "react-native",
     "ios",
     "android"
+"_requiredBy": [
+    "/"
   ],
+  "_resolved": "git+https://github.com/healnow/react-native-google-places-autocomplete.git#41d3190f17aab9ada3ab3cb7ec368919c37d5a3a",
+  "_shasum": "6f7e34a30605bc17bfa2fcbf560f4815117963d8",
+  "_shrinkwrap": null,
+  "_spec": "react-native-google-places-autocomplete@git+https://github.com/healnow/react-native-google-places-autocomplete.git",
+  "_where": "/Users/AfroSamurai/apps/mobile_app",
+  "author": {
+    "name": "Farid from Safi"
+  },
   "bugs": {
     "url": "https://github.com/FaridSafi/react-native-google-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/FaridSafi/react-native-google-places-autocomplete#readme",
-  "dependencies": {
+"homepage": "https://github.com/FaridSafi/react-native-google-places-autocomplete#readme",
+"dependencies": {
     "qs": "^5.2.0"
   },
+  "description": "Customizable Google Places autocomplete component for iOS and Android React-Native apps",
   "devDependencies": {
     "eslint": "^1.9.0",
     "eslint-config-airbnb": "^1.0.0",

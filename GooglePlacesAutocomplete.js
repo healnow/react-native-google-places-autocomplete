@@ -7,12 +7,20 @@ const defaultStyles = {
     flex: 1,
   },
   textInputContainer: {
-    backgroundColor: '#C9C9CE',
+    // backgroundColor: '#C9C9CE',
+    borderRadius: 5,
+    backgroundColor: '#FFFFFF',
     height: 44,
-    borderTopColor: '#7e7e7e',
-    borderBottomColor: '#b5b5b5',
-    borderTopWidth: 1 / PixelRatio.get(),
-    borderBottomWidth: 1 / PixelRatio.get(),
+    // borderTopColor: '#b5b5b5',
+    // borderTopColor: '#7e7e7e',
+    // borderBottomColor: '#b5b5b5',
+    // borderTopWidth: 1 / PixelRatio.get(),
+    // borderBottomWidth: 1 / PixelRatio.get(),
+    borderColor: '#b5b5b5',
+    borderWidth: .5,
+
+    // borderTopWidth: 1 ,
+    // borderBottomWidth: 1 ,
   },
   textInput: {
     backgroundColor: '#FFFFFF',
@@ -526,6 +534,7 @@ const GooglePlacesAutocomplete = React.createClass({
   _getListView() {
     if ((this.state.text !== '' || this.props.predefinedPlaces.length || this.props.currentLocation === true) && this.state.listViewDisplayed === true) {
       return (
+        <View>
         <ListView
           keyboardShouldPersistTaps={true}
           keyboardDismissMode="on-drag"
@@ -536,6 +545,17 @@ const GooglePlacesAutocomplete = React.createClass({
 
           {...this.props}
         />
+        <View
+          style={[defaultStyles.poweredContainer, this.props.styles.poweredContainer]}
+        >
+          <Image
+            style={[defaultStyles.powered, this.props.styles.powered, {backgroundColor: '#fff'}]}
+            resizeMode={Image.resizeMode.contain}
+            source={require('./images/powered_by_google_on_white.png')}
+          />
+        </View>
+        </View>
+      
       );
     }
 
